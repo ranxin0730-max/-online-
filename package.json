@@ -1,0 +1,10 @@
+{
+  "name": "hotblood-online-fighter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "双人异地实时对战 HTML 格斗游戏",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1" }
+}
